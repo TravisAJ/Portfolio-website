@@ -1,0 +1,17 @@
+/* Webpage Structure */
+
+html {
+    background-image: url("background.jpg");
+}
+
+body{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+
+/* Title Structure */
+
+img {
+    width: 10%;
+}

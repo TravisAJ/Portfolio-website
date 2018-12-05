@@ -1,4 +1,5 @@
-/* Webpage Structure */
+
+/* General Webpage Styles */
 
 html {
     background-image: url("background.jpg");
@@ -8,10 +9,50 @@ body{
     background-color: white;
     width: 75%;
     margin: auto;
+    box-shadow: 0 0 15px 13px white;
+}
+    
+/* Title Styles */ 
+
+header h1{
+    background-color: rgb(0, 77, 0);
+    border: 2px solid black;
+    border-top: none;
 }
 
-/* Title Structure */
-
-img {
-    width: 10%;
+header#logo img {
+    width: 8em;
+    float: left;
+    padding-left: 5px;
 }
+
+h1.title {
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+
+/* Navigation Styles */
+
+nav li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: rgb(175, 219, 186);
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+nav li a {
+    color: rgb(0, 77, 0);
+}
+
+nav li a:visited {
+    color: rgb(0, 77, 0);
+}
+
+nav li:hover {
+    background-color: white;
+}   

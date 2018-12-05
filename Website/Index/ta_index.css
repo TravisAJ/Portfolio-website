@@ -1,0 +1,31 @@
+/* Article Styles */
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article h1 {
+    letter-spacing: 10px;
+    font-size: 3em;
+    margin: 20px;
+    text-indent: -5px;
+    /*
+    Thanks to (https://www.w3schools.com/cssref/pr_text_text-indent.asp) for text-indent.
+    */
+    padding-top: 30px;
+}
+
+article p::first-letter {
+    font-size: 2em;
+}
+
+article p {
+    text-indent: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}

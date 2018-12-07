@@ -20,6 +20,10 @@ article h1 {
     padding-top: 30px;
 }
 
+article {
+
+}
+
 article p::first-letter {
     font-size: 2em;
 }
@@ -29,3 +33,16 @@ article p {
     font-size: 20px;
     line-height: 30px;
 }
+
+/* Aside Styles */
+
+aside img#face {
+    width: 200px;
+    float: right;
+    clear: both;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 15px solid black;
+}
+
